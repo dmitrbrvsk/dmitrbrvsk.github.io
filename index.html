@@ -1,9 +1,113 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hello, dmitrbrvsk</title>
-	</head>
-	<body>
-		<h1>Hello, dmitrbrvsk</h1>
-	</body>
+<html lang="ru">
+
+<head>
+  <title>Дмитрий Боровский</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="video-container">
+    <video class="video" src="./assets/video.mov" autoplay muted loop></video>
+  </div>
+  <div class="content">
+    <div class="about-me card">
+      <h1 class="about-me__title">Hi, I'm Dmitriy Borovskiy 👋</h1>
+      <h2 class="about-me__subtitle">Front-end Developer</h2>
+    </div>
+    <section class="skills card">
+      <h1 class="skills__title title">Skills</h1>
+      <ul class="skills__list">
+        <li class="skills__item tag">Javascript</li>
+        <li class="skills__item tag">React</li>
+        <li class="skills__item tag">Redux</li>
+        <li class="skills__item tag">Typescript</li>
+        <li class="skills__item tag">CSS</li>
+        <li class="skills__item tag">CSS Modules</li>
+        <li class="skills__item tag">Storybook</li>
+        <li class="skills__item tag">Webpack</li>
+      </ul>
+    </section>
+    <section class="tools card">
+      <h1 class="tools__title title">Dev Tools</h1>
+      <ul class="tools__list">
+        <li class="tools__item tag">Eslint</li>
+        <li class="tools__item tag">Stylelint</li>
+        <li class="tools__item tag">Prettier</li>
+        <li class="tools__item tag">Husky</li>
+        <li class="tools__item tag">Lint-staged</li>
+        <li class="tools__item tag">VS Code</li>
+        <li class="tools__item tag">Slack</li>
+        <li class="tools__item tag">Jira</li>
+        <li class="tools__item tag">Confluence</li>
+        <li class="tools__item tag">Figma</li>
+        <li class="tools__item tag">Zeplin</li>
+        <li class="tools__item tag">Sketch</li>
+        <li class="tools__item tag">Bitbucket</li>
+        <li class="tools__item tag">Gitlab</li>
+      </ul>
+    </section>
+    <section class="contacts card">
+      <h1 class="contacts__title title">Let's be internet</h1>
+      <ul class="contacts__list">
+        <li class="contacts__item">
+          <a class="contacts__link" href="mailto:dmitr.borovskij@gmail.com" target="_blank" rel="nofollow noopener"
+            title="gmail">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="#eceff1" d="M64 64h384v384H64z" />
+              <path fill="#cfd8dc" d="M256 296.384L448 448V148.672z" />
+              <path
+                d="M464 64h-16L256 215.616 64 64H48C21.504 64 0 85.504 0 112v288c0 26.496 21.504 48 48 48h16V148.672l192 147.68L448 148.64V448h16c26.496 0 48-21.504 48-48V112c0-26.496-21.504-48-48-48z"
+                fill="#f44336" />
+            </svg>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://github.com/dmitrbrvsk" target="_blank" rel="nofollow noopener"
+            title="github">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M12 .5C5.37.5 0 5.78 0 12.292c0 5.211 3.438 9.63 8.205 11.188.6.111.82-.254.82-.567 0-.28-.01-1.022-.015-2.005-3.338.711-4.042-1.582-4.042-1.582-.546-1.361-1.335-1.725-1.335-1.725-1.087-.731.084-.716.084-.716 1.205.082 1.838 1.215 1.838 1.215 1.07 1.803 2.809 1.282 3.495.981.108-.763.417-1.282.76-1.577-2.665-.295-5.466-1.309-5.466-5.827 0-1.287.465-2.339 1.235-3.164-.135-.298-.54-1.497.105-3.121 0 0 1.005-.316 3.3 1.209.96-.262 1.98-.392 3-.398 1.02.006 2.04.136 3 .398 2.28-1.525 3.285-1.209 3.285-1.209.645 1.624.24 2.823.12 3.121.765.825 1.23 1.877 1.23 3.164 0 4.53-2.805 5.527-5.475 5.817.42.354.81 1.077.81 2.182 0 1.578-.015 2.846-.015 3.229 0 .309.21.678.825.56C20.565 21.917 24 17.495 24 12.292 24 5.78 18.627.5 12 .5z" />
+            </svg>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://www.linkedin.com/in/dmitrbrvsk/" target="_blank"
+            rel="nofollow noopener" title="linkedin">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <g fill="#0077b5">
+                <path
+                  d="M23.994 24v-.001H24v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07V7.976H8.489v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243V24zM.396 7.977h4.976V24H.396zM2.882 0C1.291 0 0 1.291 0 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909C5.763 1.291 4.472 0 2.882 0z" />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://t.me/dmitrbrvsk" target="_blank" rel="nofollow noopener"
+            title="telegram">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="12" cy="12" fill="#039be5" r="12" />
+              <path
+                d="M5.491 11.74l11.57-4.461c.537-.194 1.006.131.832.943l.001-.001-1.97 9.281c-.146.658-.537.818-1.084.508l-3-2.211-1.447 1.394c-.16.16-.295.295-.605.295l.213-3.053 5.56-5.023c.242-.213-.054-.333-.373-.121l-6.871 4.326-2.962-.924c-.643-.204-.657-.643.136-.953z"
+                fill="#fff" />
+            </svg>
+          </a>
+        </li>
+        <li class="contacts__item">
+          <a class="contacts__link" href="https://twitter.com/dmitrbrvsk" target="_blank" rel="nofollow noopener"
+            title="twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path
+                d="M512 97.248c-19.04 8.352-39.328 13.888-60.48 16.576 21.76-12.992 38.368-33.408 46.176-58.016-20.288 12.096-42.688 20.64-66.56 25.408C411.872 60.704 384.416 48 354.464 48c-58.112 0-104.896 47.168-104.896 104.992 0 8.32.704 16.32 2.432 23.936-87.264-4.256-164.48-46.08-216.352-109.792-9.056 15.712-14.368 33.696-14.368 53.056 0 36.352 18.72 68.576 46.624 87.232-16.864-.32-33.408-5.216-47.424-12.928v1.152c0 51.008 36.384 93.376 84.096 103.136-8.544 2.336-17.856 3.456-27.52 3.456-6.72 0-13.504-.384-19.872-1.792 13.6 41.568 52.192 72.128 98.08 73.12-35.712 27.936-81.056 44.768-130.144 44.768-8.608 0-16.864-.384-25.12-1.44C46.496 446.88 101.6 464 161.024 464c193.152 0 298.752-160 298.752-298.688 0-4.64-.16-9.12-.384-13.568 20.832-14.784 38.336-33.248 52.608-54.496z"
+                fill="#03a9f4" />
+            </svg>
+          </a>
+        </li>
+      </ul>
+    </section>
+  </div>
+</body>
+
 </html>
